@@ -1,0 +1,156 @@
+
+
+@media (min-width: 768px){
+
+    .navbar-collapse {
+    
+        max-width: fit-content;
+    }
+
+}
+
+.navbar{
+
+    background-color: beige;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.slide{
+    margin-top: 0px;
+}
+.slide img{
+
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    vertical-align: middle;
+
+}
+
+
+.carousel-caption{
+
+    margin-bottom: 100px;
+
+}
+
+.carousel-caption h2{
+
+    font-size: 20px;
+
+}
+.carousel-caption hr{
+
+    color: white;
+    opacity: 0.75;
+    border-radius: 100px;
+}
+.fa-brands{
+    font-size: 20px;
+    margin: 10px;
+    color:rgb(26 163 177 / 75%);
+    
+}
+
+.fa-brands:hover{
+    color:rgba(0, 0, 0, 0.75);
+    
+}
+
+.card{
+    filter: grayscale(100%);
+    transition: 0.5s;
+  
+}
+.card:hover{
+    filter: grayscale(0%);
+    -moz-transform: scale(1.1,1.1);
+    -webkit-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+        
+}
+
+.card-img-overlay .h4{
+    
+    margin-top: 75%;
+    background-color: rgba(0, 0, 0, 0.219);
+    
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(26 163 177 / 75%);
+}
+
+.m-1 {
+    margin: 2.35rem!important;
+}
+
+.btn-primary{
+    background-color:rgb(26 163 177 / 75%);
+    border-color:rgb(26 163 177 / 75%);;
+
+}
+.btn-primary:hover{
+    background-color:rgb(255, 255, 255);
+    border-color:rgb(26 163 177 / 75%);
+    color: black;
+
+}
+
+a{
+    color:rgb(26 163 177 / 75%);
+}
+a:hover{
+    color:rgba(0, 0, 0, 0.75);
+}
+
+
+.palabras {
+    padding: 50px;
+    margin: 16px;
+    background-color: beige;
+    color:Black;
+}
+.palabras h1 {
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+
+.c-go-top {
+    display: flex;
+    justify-content: space-around;
+}
+.fa-fw {
+    
+    font-size: 25px;
+    margin-bottom: 32px;
+}
+#cuadro{
+
+    background-color: beige;
+}
+
+#foot{
+    background-color: beige;
+
+}
+
+.img-thumbnail:hover{
+
+    filter: brightness(0.7);
+}
+
+hr:not([size]) {
+    height: 4px;
+    color: white;
+    opacity: 6;
+}
